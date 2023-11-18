@@ -1,0 +1,223 @@
+:root{
+    --navbar-height: 59px;
+}
+
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+
+#navbar::before{
+    content: "";
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+/* Navigation Bar: Logo and Image */
+#logo{
+    margin: 10px 34px;
+}
+
+#logo img{
+    height: 59px;
+    margin: 3px 6px;
+}
+
+/* Navigation Bar: List Styling */
+
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai';
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+/* Home Section */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding:3px 200px;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before{ 
+    content: "";
+    position: absolute;
+    top:0px;
+    left:0px;
+    background: url("https://watermark.lovepik.com/photo/20211209/large/lovepik-vegetable-food-background-material-picture_501697070.jpg") no-repeat center center/cover;
+    height: 642px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.89;
+}
+.h-primary{
+    font-size: 4.8rem;
+    color: rgb(3, 3, 3);
+    padding: 2px;
+}
+.btn{
+    padding: 5px 20px;
+    border: 2px solid brown;
+    font-size: 1.8rem;
+    background-color: burlywood;
+    cursor: pointer;
+    color: white;
+    margin: 15px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+
+}
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{ 
+    border: 2px solid brown;
+    padding: 34px;
+    margin: -12px 25px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+    
+}
+
+
+#services .box img{ 
+   height: 400px;
+   margin: auto;
+   display: block;
+}
+
+#services .box p{
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+} 
+.h-primary{
+    font-family: 'Bree Serif', serif;
+    font-size: 4.8rem;
+    padding: 71px;
+    text-align: center;
+    
+}
+#clients1{
+    margin: 3px;
+    padding: 3px;
+}
+
+.h-secondary{
+    font-family: 'Bree Serif', serif;
+    font-size: 2.3rem;
+    padding: 12px;
+}
+.box h2{
+    text-align: center;
+}
+#client-section{
+    height: 524px;
+}
+#client-section::before{
+    content:"";
+    position: absolute;
+   background: url('fs.jpg.jpg')no-repeat center center/cover;
+    width: 100%;
+    height: 33%;
+    z-index: -1;
+    opacity: .8;
+}
+ #clients{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5px;
+    
+} 
+.client-item{
+    display: flex;
+    padding: 50px;
+    margin: 300px;
+    height: 100px;
+    width: 700px;
+}
+.client-item img{
+   
+    width:100%;
+    justify-content: center;
+}
+#contact{
+    position: relative;
+}
+.h-primary{
+    color: rgb(0, 0, 0);
+    
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('a.jpg') no-repeat center center/cover;
+    margin-top: 200px;
+
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 134px;
+}
+#contact-box input, 
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+} 
+
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box label{
+   font-size: 1.3rem;
+   font-family: 'Bree Serif', serif;
+
+}
+
+
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
+
